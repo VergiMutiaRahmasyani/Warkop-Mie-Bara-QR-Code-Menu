@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", system-ui, sans-serif;
+  --color-bara-black: #000000;
+  --color-bara-panel: #141414;
+  --color-bara-line: #2a2a2a;
+  --color-bara-cyan: #12c8f4;
+  --color-bara-chili: #e5322d;
+}
+
+body { @apply bg-bara-black text-white font-sans; }
+
+.no-scrollbar {
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none; 
+}
